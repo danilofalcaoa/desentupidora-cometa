@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Desentupidora em Fortaleza. Só paga depois que o problema for resolvido. 4.6 no Google com 120+ avaliações. Chame agora no WhatsApp.">
+  <title>Desentupidora e Limpa Fossa Cometa | Fortaleza-CE</title>
+
+  <!-- Fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- ASSET-LOGO: favicon
+       Dimensão: 32x32px (favicon) e 180x180px (apple-touch-icon)
+       Formato: PNG com fundo transparente
+       Contexto: Símbolo da cometa/estrela ou inicial "C" sobre fundo azul #0D1B5E
+       Arquivo: assets/logo/favicon.png -->
+  <link rel="icon" type="image/png" href="assets/logo/favicon.png">
+</head>
+<body>
+
+  <!-- ======================================
+       NAVBAR
+       ====================================== -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+
+      <!-- ASSET-LOGO: logo-navbar
+           Local: navbar sticky no topo da página
+           Dimensão: 52px de altura (desktop) / 44px (mobile) — largura automática
+           Formato: PNG com fundo transparente, versão clara (branca) para fundo azul escuro
+           Contexto: Logo circular da Cometa SEM os números de telefone gravados no design
+           Arquivo: assets/logo/logo-branco.png -->
+      <a href="#hero" class="navbar__logo">
+        <span class="navbar__logo-mask">
+          <img src="assets/logo/logo-branco.png" alt="Desentupidora e Limpa Fossa Cometa">
+        </span>
+      </a>
+
+      <nav class="navbar__nav" id="navMenu" aria-label="Menu principal">
+        <a href="#servicos" class="navbar__link">Serviços</a>
+        <a href="#como-funciona" class="navbar__link">Como funciona</a>
+        <a href="#depoimentos" class="navbar__link">Depoimentos</a>
+        <a href="#sobre" class="navbar__link">Sobre</a>
+        <a href="#faq" class="navbar__link">FAQ</a>
+        <a href="https://wa.me/5585991944240?text=Olá%2C%20vim%20pelo%20site%20e%20gostaria%20de%20um%20orçamento" class="btn btn--cta navbar__nav-cta" target="_blank" rel="noopener">
+          Pedir orçamento
+        </a>
+      </nav>
+
+      <div class="navbar__right">
+        <a href="tel:+558532815405" class="navbar__phone">
+          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.01 1.18 2 2 0 012 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14.92v2z"/></svg>
+          (85) 3281-5405
+        </a>
+        <a href="https://wa.me/5585991944240?text=Olá%2C%20vim%20pelo%20site%20e%20gostaria%20de%20um%20orçamento" class="btn btn--cta navbar__cta" target="_blank" rel="noopener">
+          Pedir orçamento
+        </a>
+        <button class="navbar__hamburger" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="navMenu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ======================================
+         HERO
+         ====================================== -->
+    <section class="hero" id="hero">
+
+      <!-- ASSET-IMAGEM: hero-background
+           Local: fundo full-width da seção hero
+           Dimensão: 1440x860px (desktop) / 768x600px (tablet) / 375x660px (mobile)
+           Proporção: livre — coberta por overlay azul escuro 75% opacidade
+           Contexto: Caminhão da Desentupidora Cometa em ação OU técnico trabalhando em campo com equipamento visível. Transmitir: profissional, equipe real, serviço pesado.
+           Formato: JPG ou WebP, máximo 300KB após compressão
+           Arquivo: assets/images/hero-bg.jpg -->
+      <div class="hero__bg"></div>
+      <div class="hero__overlay"></div>
+
+      <div class="container hero__content">
+        <div class="hero__badge">
+          <span class="hero__badge-dot"></span>
+          Fortaleza e região
+        </div>
+
+        <h1 class="hero__headline">
+          Pia entupida?<br>Fossa cheia?<br>
+          <span class="hero__accent">A Cometa resolve ainda hoje.</span>
+        </h1>
+
+        <p class="hero__subheadline">
+          Peça seu orçamento. Você só paga depois que o problema for resolvido.
+        </p>
+
+        <div class="hero__actions">
+          <a href="https://wa.me/5585991944240?text=Olá%2C%20vim%20pelo%20site%20e%20gostaria%20de%20um%20orçamento" class="btn btn--cta btn--lg" target="_blank" rel="noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Pedir orçamento no WhatsApp
+          </a>
+          <a href="tel:+558532815405" class="btn btn--outline btn--lg">
+            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.01 1.18 2 2 0 012 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14.92v2z"/></svg>
+            (85) 3281-5405
+          </a>
+        </div>
+
+        <div class="hero__trust">
+          <div class="hero__trust-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            4.6 no Google
+          </div>
+          <span class="hero__trust-divider" aria-hidden="true">·</span>
+          <div class="hero__trust-item">
+            120+ avaliações
+          </div>
+          <span class="hero__trust-divider" aria-hidden="true">·</span>
+          <div class="hero__trust-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+            Só paga se resolver
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================
+         PROPOSTA CENTRAL / BENEFÍCIOS
+         ====================================== -->
+    <section class="benefits" id="beneficios">
+      <div class="container">
+        <div class="section-header fade-up">
+          <h2 class="section-title">Quando o esgoto para, a vida para junto</h2>
+          <p class="section-subtitle">A Cometa chega no mesmo dia, avalia sem cobrar nada, passa o orçamento antes de começar e só cobra depois que está tudo funcionando. Sem surpresa, sem sujeira, sem lenga-lenga.</p>
+        </div>
+        <div class="benefits__grid">
+
+          <div class="benefit-card fade-up">
+            <div class="benefit-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <h3 class="benefit-card__title">Problema resolvido hoje</h3>
+            <p class="benefit-card__text">Sem precisar cancelar compromisso esperando técnico que talvez apareça amanhã.</p>
+          </div>
+
+          <div class="benefit-card fade-up">
+            <div class="benefit-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg>
+            </div>
+            <h3 class="benefit-card__title">Você aprova o preço antes</h3>
+            <p class="benefit-card__text">Orçamento grátis. Só começa com a sua autorização.</p>
+          </div>
+
+          <div class="benefit-card fade-up">
+            <div class="benefit-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+            </div>
+            <h3 class="benefit-card__title">Só paga se resolver</h3>
+            <p class="benefit-card__text">A equipe avalia, confirma o valor e só cobra depois que o problema sumiu de verdade.</p>
+          </div>
+
+          <div class="benefit-card fade-up">
+            <div class="benefit-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            </div>
+            <h3 class="benefit-card__title">Local limpo depois do serviço</h3>
+            <p class="benefit-card__text">Nada de rastro, cheiro ou bagunça no imóvel depois que a gente vai embora.</p>
+          </div>
+
+          <div class="benefit-card fade-up">
+            <div class="benefit-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+            </div>
+            <h3 class="benefit-card__title">Atendimento direto no WhatsApp</h3>
+            <p class="benefit-card__text">Resposta rápida, sem fila de espera em central telefônica. Fale direto com quem resolve.</p>
+          </div>
+
+          <div class="benefit-card fade-up">
+            <div class="benefit-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
+            </div>
+            <h3 class="benefit-card__title">Resolve quando outros não conseguiram</h3>
+            <p class="benefit-card__text">Chamamos quando o bombeiro, outra empresa ou o condomínio falhou. E resolvemos.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================
+         SERVIÇOS
+         ====================================== -->
+    <section class="services" id="servicos">
+      <div class="container">
+        <div class="section-header fade-up">
+          <h2 class="section-title">O que a Cometa resolve</h2>
+          <p class="section-subtitle">Atendimento residencial e empresarial em Fortaleza e região. Se tem esgoto, a Cometa vai até lá.</p>
+        </div>
+        <div class="services__grid">
+
+          <div class="service-card fade-up">
+            <div class="service-card__icon">
+              <!-- ASSET-ICONE: icone-esgoto — flat outline, branco sobre fundo var(--color-accent) -->
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2.69l5.66 5.66a8 8 0 11-11.31 0z"/></svg>
+            </div>
+            <h3 class="service-card__name">Desentupimento de esgoto</h3>
+            <p class="service-card__desc">Para quando o escoamento parou e a pia ou o vaso não funciona mais. Resolvemos no mesmo dia, sem quebra de parede.</p>
+          </div>
+
+          <div class="service-card fade-up">
+            <div class="service-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+            </div>
+            <h3 class="service-card__name">Limpeza de fossa séptica</h3>
+            <p class="service-card__desc">Fossa cheia gera mau cheiro e risco de transbordamento. Limpamos com equipamento adequado antes que o problema vire emergência.</p>
+          </div>
+
+          <div class="service-card fade-up">
+            <div class="service-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>
+            </div>
+            <h3 class="service-card__name">Desentupimento de caixa de gordura</h3>
+            <p class="service-card__desc">Gordura acumulada bloqueia cozinhas e contamina o esgoto. Ideal para restaurantes, condomínios e cozinhas industriais.</p>
+          </div>
+
+          <div class="service-card fade-up">
+            <div class="service-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12H19M12 5l7 7-7 7"/></svg>
+            </div>
+            <h3 class="service-card__name">Desentupimento de ralos e pias</h3>
+            <p class="service-card__desc">Pia da cozinha, banheiro, área de serviço, calha e ralo. Solução rápida para o dia a dia, sem precisar chamar obra.</p>
+          </div>
+
+          <div class="service-card fade-up">
+            <div class="service-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93l-1.41 1.41M5.34 18.66l-1.41-1.41M2 12h2M20 12h2M5.34 5.34l1.41 1.41M18.66 18.66l1.41-1.41M12 2v2M12 20v2"/></svg>
+            </div>
+            <h3 class="service-card__name">Limpeza de ETE</h3>
+            <p class="service-card__desc">Manutenção da estação de tratamento de efluentes para empresas. Mantém a operação dentro da norma e evita multa ou interdição.</p>
+          </div>
+
+          <div class="service-card fade-up">
+            <div class="service-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            </div>
+            <h3 class="service-card__name">Condomínios e empresas</h3>
+            <p class="service-card__desc">Manutenção preventiva programada para evitar emergências. Você não precisa esperar o problema acontecer para chamar a gente.</p>
+          </div>
+
+        </div>
+        <div class="services__cta fade-up">
+          <a href="https://wa.me/5585991944240?text=Olá%2C%20vim%20pelo%20site%20e%20gostaria%20de%20um%20orçamento" class="btn btn--primary btn--lg" target="_blank" rel="noopener">
+            Falar sobre o meu problema agora
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================
+         ANTES E DEPOIS — CARROSSEL
+         ====================================== -->
+    <section class="before-after" id="antes-depois">
+      <div class="container">
+        <div class="section-header fade-up">
+          <h2 class="section-title">Problemas que a Cometa já resolveu</h2>
+          <p class="section-subtitle">Cada serviço entregue com limpeza e resultado comprovado. Confira alguns dos trabalhos realizados em Fortaleza.</p>
+        </div>
+
+        <div class="ba-carousel fade-up" aria-label="Galeria de antes e depois">
+          <div class="ba-track" id="baTrack">
+
+            <!-- Slide 1 — Esgoto -->
+            <div class="ba-slide">
+              <div class="ba-pair">
+                <!-- ASSET-IMAGEM: antes-esgoto-1
+                     Local: carrossel antes/depois, imagem esquerda do slide 1
+                     Dimensão: 560x380px (desktop) / 100% largura x 220px (mobile)
+                     Proporção: 3:2
+                     Contexto: Pia, vaso ou esgoto com entupimento visível — água parada, resíduo acumulado
+                     Formato: JPG ou WebP, máximo 150KB
+                     Arquivo: assets/images/antes-esgoto-1.jpg -->
+                <div class="ba-img-wrap">
+                  <img src="assets/images/antes-esgoto-1.jpg" alt="Esgoto entupido antes do serviço" class="ba-img" loading="lazy" width="560" height="380">
+                  <span class="ba-label ba-label--before">Antes</span>
+                </div>
+                <!-- ASSET-IMAGEM: depois-esgoto-1
+                     Local: carrossel antes/depois, imagem direita do slide 1
+                     Dimensão: 560x380px (desktop) / 100% largura x 220px (mobile)
+                     Proporção: 3:2
+                     Contexto: Mesmo local após o serviço — escoamento funcionando, ambiente limpo, sem resíduo
+                     Formato: JPG ou WebP, máximo 150KB
+                     Arquivo: assets/images/depois-esgoto-1.jpg -->
+                <div class="ba-img-wrap">
+                  <img src="assets/images/depois-esgoto-1.jpg" alt="Esgoto desentupido após o serviço" class="ba-img" loading="lazy" width="560" height="380">
+                  <span class="ba-label ba-label--after">Depois</span>
+                </div>
+              </div>
+              <p class="ba-caption">Desentupimento de esgoto residencial — resolvido no mesmo dia</p>
+            </div>
+
+            <!-- Slide 2 — Fossa -->
+            <div class="ba-slide">
+              <div class="ba-pair">
+                <!-- ASSET-IMAGEM: antes-fossa-1
+                     Local: carrossel antes/depois, imagem esquerda do slide 2
+                     Dimensão: 560x380px / proporção 3:2
+                     Contexto: Fossa séptica cheia ou transbordando — resíduo, mau aspecto visível
+                     Arquivo: assets/images/antes-fossa-1.jpg -->
+                <div class="ba-img-wrap">
+                  <img src="assets/images/antes-fossa-1.jpg" alt="Fossa séptica cheia antes da limpeza" class="ba-img" loading="lazy" width="560" height="380">
+                  <span class="ba-label ba-label--before">Antes</span>
+                </div>
+                <!-- ASSET-IMAGEM: depois-fossa-1
+                     Local: carrossel antes/depois, imagem direita do slide 2
+                     Dimensão: 560x380px / proporção 3:2
+                     Contexto: Fossa após limpeza completa — caminhão Cometa visível, ambiente organizado
+                     Arquivo: assets/images/depois-fossa-1.jpg -->
+                <div class="ba-img-wrap">
+                  <img src="assets/images/depois-fossa-1.jpg" alt="Fossa séptica limpa após o serviço" class="ba-img" loading="lazy" width="560" height="380">
+                  <span class="ba-label ba-label--after">Depois</span>
+                </div>
+              </div>
+              <p class="ba-caption">Limpeza de fossa séptica — sem mau cheiro, sem transbordamento</p>
+            </div>
+
+            <!-- Slide 3 — Caixa de gordura -->
+            <div class="ba-slide">
+              <div class="ba-pair">
+                <!-- ASSET-IMAGEM: antes-gordura-1
+                     Local: carrossel antes/depois, imagem esquerda do slide 3
+                     Dimensão: 560x380px / proporção 3:2
+                     Contexto: Caixa de gordura com acúmulo visível — gordura escura, entupimento
+                     Arquivo: assets/images/antes-gordura-1.jpg -->
+                <div class="ba-img-wrap">
+                  <img src="assets/images/antes-gordura-1.jpg" alt="Caixa de gordura entupida antes do serviço" class="ba-img" loading="lazy" width="560" height="380">
+                  <span class="ba-label ba-label--before">Antes</span>
+                </div>
+                <!-- ASSET-IMAGEM: depois-gordura-1
+                     Local: carrossel antes/depois, imagem direita do slide 3
+                     Dimensão: 560x380px / proporção 3:2
+                     Contexto: Caixa de gordura após limpeza — sem resíduo, paredes limpas
+                     Arquivo: assets/images/depois-gordura-1.jpg -->
+                <div class="ba-img-wrap">
+                  <img src="assets/images/depois-gordura-1.jpg" alt="Caixa de gordura limpa após o serviço" class="ba-img" loading="lazy" width="560" height="380">
+                  <span class="ba-label ba-label--after">Depois</span>
+                </div>
+              </div>
+              <p class="ba-caption">Desentupimento de caixa de gordura — limpeza completa sem resíduo</p>
+            </div>
+
+            <!-- Slide 4 — Ralo / pia -->
+            <div class="ba-slide">
+              <div class="ba-pair">
+                <!-- ASSET-IMAGEM: antes-ralo-1
+                     Local: carrossel antes/depois, imagem esquerda do slide 4
+                     Dimensão: 560x380px / proporção 3:2
+                     Contexto: Ralo ou pia com entupimento — água parada ou escoamento muito lento
+                     Arquivo: assets/images/antes-ralo-1.jpg -->
+                <div class="ba-img-wrap">
+                  <img src="assets/images/antes-ralo-1.jpg" alt="Ralo entupido antes do serviço" class="ba-img" loading="lazy" width="560" height="380">
+                  <span class="ba-label ba-label--before">Antes</span>
+                </div>
+                <!-- ASSET-IMAGEM: depois-ralo-1
+                     Local: carrossel antes/depois, imagem direita do slide 4
+                     Dimensão: 560x380px / proporção 3:2
+                     Contexto: Ralo ou pia funcionando normalmente após o serviço
+                     Arquivo: assets/images/depois-ralo-1.jpg -->
+                <div class="ba-img-wrap">
+                  <img src="assets/images/depois-ralo-1.jpg" alt="Ralo desentupido após o serviço" class="ba-img" loading="lazy" width="560" height="380">
+                  <span class="ba-label ba-label--after">Depois</span>
+                </div>
+              </div>
+              <p class="ba-caption">Desentupimento de ralo — serviço rápido, sem obra e sem bagunça</p>
+            </div>
+
+            <!-- Slide 5 — Serviço empresarial / ETE -->
+            <div class="ba-slide">
+              <div class="ba-pair">
+                <!-- ASSET-IMAGEM: antes-ete-1
+                     Local: carrossel antes/depois, imagem esquerda do slide 5
+                     Dimensão: 560x380px / proporção 3:2
+                     Contexto: Área de esgoto, ETE ou sistema de drenagem com resíduo acumulado antes da manutenção
+                     Arquivo: assets/images/antes-ete-1.jpg -->
+                <div class="ba-img-wrap">
+                  <img src="assets/images/antes-ete-1.jpg" alt="Sistema de esgoto antes da manutenção" class="ba-img" loading="lazy" width="560" height="380">
+                  <span class="ba-label ba-label--before">Antes</span>
+                </div>
+                <!-- ASSET-IMAGEM: depois-ete-1
+                     Local: carrossel antes/depois, imagem direita do slide 5
+                     Dimensão: 560x380px / proporção 3:2
+                     Contexto: Mesma área após serviço da Cometa — limpa, organizada, equipe visível se possível
+                     Arquivo: assets/images/depois-ete-1.jpg -->
+                <div class="ba-img-wrap">
+                  <img src="assets/images/depois-ete-1.jpg" alt="Sistema de esgoto após manutenção da Cometa" class="ba-img" loading="lazy" width="560" height="380">
+                  <span class="ba-label ba-label--after">Depois</span>
+                </div>
+              </div>
+              <p class="ba-caption">Manutenção de ETE empresarial — operação dentro da norma</p>
+            </div>
+
+          </div><!-- /ba-track -->
+
+          <!-- Seta anterior -->
+          <button class="ba-btn ba-btn--prev" id="baPrev" aria-label="Slide anterior">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
+          </button>
+
+          <!-- Seta próxima -->
+          <button class="ba-btn ba-btn--next" id="baNext" aria-label="Próximo slide">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+
+          <!-- Dots de navegação (gerados pelo JS) -->
+          <div class="ba-dots" id="baDots" role="tablist" aria-label="Navegar pelos slides"></div>
+
+        </div><!-- /ba-carousel -->
+
+        <div class="ba-cta fade-up">
+          <a href="https://wa.me/5585991944240?text=Olá%2C%20vim%20pelo%20site%20e%20gostaria%20de%20um%20orçamento" class="btn btn--cta btn--lg" target="_blank" rel="noopener">
+            Quero resolver o meu problema também
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================
+         COMO FUNCIONA
+         ====================================== -->
+    <section class="how-it-works" id="como-funciona">
+      <div class="container">
+        <div class="section-header fade-up">
+          <h2 class="section-title">Como funciona</h2>
+          <p class="section-subtitle">Do primeiro contato até o problema resolvido. Simples, transparente e sem surpresa.</p>
+        </div>
+        <div class="steps">
+
+          <div class="step fade-up">
+            <div class="step__number">01</div>
+            <div class="step__content">
+              <h3 class="step__title">Você manda mensagem no WhatsApp</h3>
+              <p class="step__desc">Descreva o problema em uma mensagem. Leva menos de 1 minuto. Respondemos rápido, sem enrolação.</p>
+            </div>
+          </div>
+
+          <div class="step fade-up">
+            <div class="step__number">02</div>
+            <div class="step__content">
+              <h3 class="step__title">Avaliamos e passamos o orçamento no WhatsApp</h3>
+              <p class="step__desc">Com base no que você descreve, já passamos o orçamento direto no chat. Sem visita prévia, sem cobrar nada para avaliar.</p>
+            </div>
+          </div>
+
+          <div class="step fade-up">
+            <div class="step__number">03</div>
+            <div class="step__content">
+              <h3 class="step__title">Você decide, sem pressão</h3>
+              <p class="step__desc">Aprova o valor quando quiser. Sem obrigação, sem taxa de visita se não seguir em frente. O serviço só é agendado depois da sua confirmação.</p>
+            </div>
+          </div>
+
+          <div class="step fade-up">
+            <div class="step__number">04</div>
+            <div class="step__content">
+              <h3 class="step__title">A equipe agenda e vai até você</h3>
+              <p class="step__desc">Confirmado o orçamento, agendamos o horário que funcionar para você. A equipe chega no horário combinado, sem atraso.</p>
+            </div>
+          </div>
+
+          <div class="step fade-up">
+            <div class="step__number">05</div>
+            <div class="step__content">
+              <h3 class="step__title">Resolvemos, limpamos, você paga depois</h3>
+              <p class="step__desc">Fazemos o serviço, limpamos o local e o pagamento só acontece depois que está tudo funcionando. Sem cobrança antecipada.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================
+         PROVA SOCIAL / DEPOIMENTOS
+         ====================================== -->
+    <section class="social-proof" id="depoimentos">
+      <div class="container">
+        <div class="section-header fade-up">
+          <h2 class="section-title section-title--light">O que dizem os clientes</h2>
+          <p class="section-subtitle section-subtitle--light">Avaliações reais do Google de clientes em Fortaleza que já chamaram a Cometa.</p>
+        </div>
+
+        <div class="stats fade-up">
+          <div class="stat">
+            <span class="stat__number">4.6</span>
+            <span class="stat__label">estrelas no Google</span>
+          </div>
+          <div class="stat">
+            <span class="stat__number" data-count="120">120+</span>
+            <span class="stat__label">avaliações</span>
+          </div>
+          <div class="stat">
+            <span class="stat__number" data-count="6534">6534+</span>
+            <span class="stat__label">clientes atendidos</span>
+          </div>
+        </div>
+
+        <div class="testimonials__grid">
+
+          <div class="testimonial-card fade-up">
+            <!-- ASSET-IMAGEM: foto-depoimento-fabiana
+                 Dimensão: 56x56px circular
+                 Contexto: Foto do rosto da cliente. Se não disponível, usar avatar com inicial "F" em fundo azul — já implementado como fallback no CSS.
+                 Arquivo: assets/images/dep-fabiana.jpg -->
+            <div class="testimonial-card__avatar" style="--avatar-color: #0D1B5E" aria-hidden="true">F</div>
+            <div class="testimonial-card__stars" aria-label="5 estrelas">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <blockquote class="testimonial-card__text">"Uma empresa que trabalha com excelência. Resolveu meu problema com muita maestria e competência. Já contratei pela segunda vez e fiquei muito satisfeita."</blockquote>
+            <cite class="testimonial-card__author"><strong>Fabiana Santos</strong>, Fortaleza</cite>
+          </div>
+
+          <div class="testimonial-card fade-up">
+            <div class="testimonial-card__avatar" style="--avatar-color: #155E75" aria-hidden="true">J</div>
+            <div class="testimonial-card__stars" aria-label="5 estrelas">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <blockquote class="testimonial-card__text">"Atendimento via WhatsApp foi objetivo e houve presteza no atendimento domiciliar. Fizeram o serviço com cuidado e atenção, respondendo a todas as dúvidas. O valor foi justo."</blockquote>
+            <cite class="testimonial-card__author"><strong>Joísa Quixadá</strong>, Fortaleza</cite>
+          </div>
+
+          <div class="testimonial-card fade-up">
+            <div class="testimonial-card__avatar" style="--avatar-color: #1E3A5F" aria-hidden="true">M</div>
+            <div class="testimonial-card__stars" aria-label="5 estrelas">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <blockquote class="testimonial-card__text">"Contratei diversas vezes este ano. O serviço foi pontual, eficiente e bem organizado. Pela minha experiência, posso recomendar esta empresa."</blockquote>
+            <cite class="testimonial-card__author"><strong>Mike Ferris</strong>, Local Guide</cite>
+          </div>
+
+          <div class="testimonial-card fade-up">
+            <div class="testimonial-card__avatar" style="--avatar-color: #0D1B5E" aria-hidden="true">M</div>
+            <div class="testimonial-card__stars" aria-label="5 estrelas">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <blockquote class="testimonial-card__text">"Chamei uma primeira empresa que não resolveu e piorou. Os rapazes da Cometa conseguiram resolver rapidamente e com muita agilidade. O preço é muito justo e me atenderam muito rápido no WhatsApp."</blockquote>
+            <cite class="testimonial-card__author"><strong>Milena Maciel</strong>, Local Guide</cite>
+          </div>
+
+          <div class="testimonial-card fade-up">
+            <div class="testimonial-card__avatar" style="--avatar-color: #155E75" aria-hidden="true">T</div>
+            <div class="testimonial-card__stars" aria-label="5 estrelas">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <blockquote class="testimonial-card__text">"Excelente atendimento desde o contato até o serviço. Ótimos profissionais, não sujou nada. Super indico. Parabéns a toda equipe desde o atendimento aos profissionais que executaram o serviço."</blockquote>
+            <cite class="testimonial-card__author"><strong>Tacianno Queiroz</strong>, Fortaleza</cite>
+          </div>
+
+          <div class="testimonial-card fade-up">
+            <div class="testimonial-card__avatar" style="--avatar-color: #1E3A5F" aria-hidden="true">F</div>
+            <div class="testimonial-card__stars" aria-label="5 estrelas">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <blockquote class="testimonial-card__text">"Tive um problema com entupimento nas pias da cozinha. Bombeiro não conseguiu resolver e chamei a Desentupidora Cometa. Foram muito ágeis, honestos e assertivos no problema. Recomendo!"</blockquote>
+            <cite class="testimonial-card__author"><strong>Fernanda Frota</strong>, Local Guide</cite>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================
+         DIFERENCIAIS
+         ====================================== -->
+    <section class="differentials" id="diferenciais">
+      <div class="container">
+        <div class="section-header fade-up">
+          <h2 class="section-title">Por que a Cometa e não outra empresa</h2>
+          <p class="section-subtitle">Não são promessas. São as razões que fazem clientes contratarem mais de uma vez.</p>
+        </div>
+        <div class="differentials__grid">
+
+          <div class="differential-card fade-up">
+            <div class="differential-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+            </div>
+            <div class="differential-card__body">
+              <h3 class="differential-card__title">Só cobra se resolver</h3>
+              <p class="differential-card__desc">A equipe avalia, confirma o valor e só começa com a sua autorização. Você só paga depois que o problema sumiu. Esse é o compromisso.</p>
+            </div>
+          </div>
+
+          <div class="differential-card fade-up">
+            <div class="differential-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83 0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
+            </div>
+            <div class="differential-card__body">
+              <h3 class="differential-card__title">Orçamento grátis</h3>
+              <p class="differential-card__desc">Avaliamos o seu caso e informamos o valor real antes de qualquer serviço.</p>
+            </div>
+          </div>
+
+          <div class="differential-card fade-up">
+            <div class="differential-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            </div>
+            <div class="differential-card__body">
+              <h3 class="differential-card__title">Não suja o local</h3>
+              <p class="differential-card__desc">Quando a equipe vai embora, o imóvel fica como estava. Sem rastro, sem cheiro, sem bagunça. Clientes citam isso especificamente nas avaliações do Google.</p>
+            </div>
+          </div>
+
+          <div class="differential-card fade-up">
+            <div class="differential-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+            </div>
+            <div class="differential-card__body">
+              <h3 class="differential-card__title">Atendimento rápido via WhatsApp</h3>
+              <p class="differential-card__desc">Sem central robotizada, sem fila de espera. Você manda mensagem e recebe resposta direta de quem vai resolver o problema.</p>
+            </div>
+          </div>
+
+          <div class="differential-card fade-up">
+            <div class="differential-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <div class="differential-card__body">
+              <h3 class="differential-card__title">4.6 no Google com 120 avaliações reais</h3>
+              <p class="differential-card__desc">São centenas de atendimentos avaliados por clientes em Fortaleza ao longo do tempo. Você pode conferir antes de ligar.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================
+         SOBRE A EMPRESA
+         ====================================== -->
+    <section class="about" id="sobre">
+      <div class="container about__inner">
+
+        <div class="about__image-wrap fade-up">
+          <!-- ASSET-IMAGEM: foto-equipe
+               Local: seção "Sobre a empresa", lado esquerdo em desktop, topo em mobile
+               Dimensão: 580x480px (desktop) / 100% largura com proporção 4:3 (mobile)
+               Proporção: 4:3
+               Contexto: Foto da equipe ao lado do caminhão da Cometa OU técnicos em campo com equipamento visível e logo da empresa aparente. Transmite: equipe real, profissional e confiável.
+               Formato: JPG ou WebP, máximo 200KB após compressão
+               Arquivo: assets/images/equipe-cometa.jpg -->
+          <img src="assets/images/equipe-cometa.jpg" alt="Equipe da Desentupidora e Limpa Fossa Cometa em frente ao caminhão" class="about__image" loading="lazy">
+        </div>
+
+        <div class="about__content fade-up">
+          <span class="about__label">Sobre a Cometa</span>
+          <h2 class="about__title">Equipe própria, equipamento próprio, resultado real</h2>
+          <p class="about__text">A Desentupidora Cometa atende Fortaleza e região com equipe própria, caminhão equipado e profissionais que conhecem o problema antes de começar a trabalhar. Não somos intermediário, não repassamos o serviço para terceiros.</p>
+          <p class="about__text">Quem vai até você é a mesma equipe que já resolveu o problema de centenas de clientes na cidade.  O orçamento é feito no local, o preço é combinado antes e o serviço só começa quando você diz que quer.</p>
+          <div class="about__actions">
+            <a href="https://wa.me/5585991944240?text=Olá%2C%20gostaria%20de%20um%20orçamento" class="btn btn--primary" target="_blank" rel="noopener">
+              Falar no WhatsApp
+            </a>
+            <div class="about__phones">
+              <a href="tel:+558530440621">(85) 3044-0621</a>
+              <a href="tel:+558532815405">(85) 3281-5405</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================
+         FAQ
+         ====================================== -->
+    <section class="faq" id="faq">
+      <div class="container">
+        <div class="section-header fade-up">
+          <h2 class="section-title">Dúvidas frequentes</h2>
+          <p class="section-subtitle">Respostas diretas para as perguntas mais comuns antes de contratar.</p>
+        </div>
+        <div class="faq__list fade-up">
+
+          <div class="faq-item">
+            <button class="faq-item__question" aria-expanded="false">
+              Vocês atendem qual região de Fortaleza?
+              <span class="faq-item__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-item__answer" hidden>
+              <p>Atendemos Fortaleza e região. Para confirmar se chegamos até o seu endereço, manda mensagem no WhatsApp com o bairro e a gente responde rápido.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-item__question" aria-expanded="false">
+              Quanto custa um desentupimento?
+              <span class="faq-item__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-item__answer" hidden>
+              <p>Depende do tipo de entupimento, do local e do acesso. Por isso analisamos o caso e passamos o orçamento de graça, antes de qualquer cobrança.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-item__question" aria-expanded="false">
+              Vão cobrar mesmo que não resolvam?
+              <span class="faq-item__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-item__answer" hidden>
+              <p>Não. Você só paga depois que o serviço estiver feito e o problema resolvido. Se não resolvemos, não cobramos. Esse é o compromisso da Cometa.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-item__question" aria-expanded="false">
+              Consigo atendimento no mesmo dia?
+              <span class="faq-item__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-item__answer" hidden>
+              <p>Manda mensagem no WhatsApp agora e verificamos a disponibilidade para hoje. A prioridade é o atendimento rápido, porque entupimento não espera.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-item__question" aria-expanded="false">
+              Atendem só residencial ou também empresas e condomínios?
+              <span class="faq-item__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-item__answer" hidden>
+              <p>Atendemos os dois. Condomínios, restaurantes, empresas e indústrias com fossa, caixa de gordura ou ETE. Para serviço empresarial, é possível fazer contrato de manutenção preventiva.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-item__question" aria-expanded="false">
+              O problema pode voltar depois do serviço?
+              <span class="faq-item__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-item__answer" hidden>
+              <p>Pode, dependendo da causa. Se o entupimento tiver origem estrutural ou acúmulo crônico, o problema pode se repetir com o tempo. Quando isso acontece, somos honestos: explicamos a causa e orientamos o que precisa ser feito.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-item__question" aria-expanded="false">
+              Atendem apartamento ou só casa?
+              <span class="faq-item__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-item__answer" hidden>
+              <p>Atendemos apartamento, casa, comércio, condomínio. Se tiver esgoto entupido, a Cometa vai até lá.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================
+         CTA FINAL
+         ====================================== -->
+    <section class="cta-final" id="contato">
+      <div class="container cta-final__inner">
+        <h2 class="cta-final__headline fade-up">O esgoto não espera.<br>A Cometa também não.</h2>
+        <p class="cta-final__sub fade-up">Cada hora que passa, o problema fica mais difícil, mais caro e mais incômodo. Chama a Cometa agora e resolve hoje.</p>
+        <div class="cta-final__actions fade-up">
+          <a href="https://wa.me/5585991944240?text=Olá%2C%20vim%20pelo%20site%20e%20gostaria%20de%20um%20orçamento" class="btn btn--cta btn--xl" target="_blank" rel="noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Pedir orçamento no WhatsApp
+          </a>
+          <a href="tel:+558532815405" class="btn btn--outline-white btn--lg">
+            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.01 1.18 2 2 0 012 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14.92v2z"/></svg>
+            (85) 3281-5405
+          </a>
+        </div>
+        <p class="cta-final__risk fade-up">Sem compromisso. Orçamento grátis. Você só paga depois que o problema for resolvido.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ======================================
+       FOOTER
+       ====================================== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+
+      <div class="footer__brand">
+        <!-- ASSET-LOGO: logo-footer
+             Dimensão: 52px de altura, largura automática
+             Formato: PNG transparente, versão clara (branca)
+             Arquivo: assets/logo/logo-branco.png -->
+        <span class="footer__logo-mask">
+          <img src="assets/logo/logo-branco.png" alt="Desentupidora e Limpa Fossa Cometa" loading="lazy">
+        </span>
+        <p class="footer__tagline">Desentupimento e Limpa Fossas<br>em Fortaleza e região</p>
+        <a href="https://www.instagram.com/desentupidora.cometa" target="_blank" rel="noopener" class="footer__social">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          @desentupidora.cometa
+        </a>
+      </div>
+
+      <div class="footer__col">
+        <h4 class="footer__title">Serviços</h4>
+        <ul class="footer__links">
+          <li>Desentupimento de esgoto</li>
+          <li>Limpeza de fossa séptica</li>
+          <li>Caixa de gordura</li>
+          <li>Ralos e pias</li>
+          <li>Limpeza de ETE</li>
+          <li>Condomínios e empresas</li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h4 class="footer__title">Contato</h4>
+        <ul class="footer__links footer__links--contact">
+          <li><a href="https://wa.me/5585991944240" target="_blank" rel="noopener">WhatsApp: (85) 99194-4240</a></li>
+          <li><a href="tel:+558530440621">(85) 3044-0621</a></li>
+          <li><a href="tel:+558532815405">(85) 3281-5405</a></li>
+          <li><a href="tel:+5585986125594">(85) 98612-5594</a></li>
+        </ul>
+        <address class="footer__address">
+          Av. Humberto Monte, 1874<br>
+          Parquelândia, Fortaleza - CE
+        </address>
+      </div>
+
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <p>© 2025 Desentupidora e Limpa Fossa Cometa. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Flutuante -->
+  <a class="whatsapp-float"
+     href="https://wa.me/5585991944240?text=Olá%2C%20vim%20pelo%20site%20e%20gostaria%20de%20um%20orçamento"
+     target="_blank"
+     rel="noopener"
+     aria-label="Falar no WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    <span class="whatsapp-float__label">WhatsApp</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
